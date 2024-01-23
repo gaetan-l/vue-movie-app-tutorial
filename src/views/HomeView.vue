@@ -35,7 +35,7 @@
 <script>
 // @ is an alias to /src
 import { ref } from 'vue';
-import env from '@/env.js';
+import env from '@/.env.js.local';
 
 export default {
   setup () {
